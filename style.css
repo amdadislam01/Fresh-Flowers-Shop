@@ -348,3 +348,53 @@ img {
     font-size: 1rem;
     font-weight: 800;
 }
+/* Footer Styles */
+.footer {
+    padding: 60px 0 0;
+    margin-bottom: 20px;
+}
+
+.footer .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.footer-logo {
+    flex: 1;
+    min-width: 250px;
+}
+
+
+.footer-links {
+    flex: 2;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+#footer-description{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.link-group-icon{
+    display: flex;
+    justify-items: center;
+    gap: 20px;
+}
+.link-group {
+    flex: 1;
+    min-width: 150px;
+}
+
+.link-group h4 {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+.link-group a {
+    display: block;
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    margin-bottom: 30px;
+    transition: color 0.3s;
+}
