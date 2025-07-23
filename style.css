@@ -220,3 +220,131 @@ img {
     color: rgba(0, 0, 0, 0.5);
     margin-left: 30px;
 }
+
+/* Latest Deal Section  */
+
+.section-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-title h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.section-title span {
+    color: #f97316;
+}
+
+.section-title p {
+    color: #666;
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 10px auto 0;
+}
+
+.deals-wrapper {
+    margin-bottom: 120px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: stretch;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.left-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.deal-card {
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+    width: 366px;
+    height: 206px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.right-card {
+    width: 700px;
+    height: 425px;
+}
+
+.deal-content {
+    position: relative;
+    z-index: 2;
+}
+
+.deal-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+.deal-card h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.deal-card a {
+    color: #fff;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+/* Join Section Styles */
+.join {
+    padding: 170px 0;
+    background-image: url('assets/news-letter-bg.png');
+    background-size: cover;
+    height: 535px;
+    background-position: center;
+    text-align: center;
+}
+
+.join h2 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.subscribe {
+    display: flex;
+    justify-content: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.subscribe input {
+    flex: 1;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    font-size: 1rem;
+}
+
+.subscribe button {
+    background-color: #E95A08;
+    height: 50px;
+    width: 185px;
+    color: #fff;
+}
+.btn-s{
+    border: none;
+    font-size: 1rem;
+    font-weight: 800;
+}
