@@ -132,3 +132,91 @@ img {
     color: rgba(0, 0, 0, 0.5);
     font-size: 1.1rem;
 }
+
+/* Plants Card Section Styles */
+.plants {
+    padding: 120px 0;
+    text-align: center;
+}
+#fresh-text{
+    color: #E95A08;
+}
+
+.plan-title {
+    font-size: 50px;
+}
+
+.subtitle {
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 40px;
+}
+
+.plant-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.card {
+    overflow: hidden;
+    transition: transform 0.3s;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h3 {
+    font-size: 1.2rem;
+}
+
+.price {
+    font-weight: bold;
+    color: black;
+    margin: 10px 0;
+}
+
+/* Plant Badge Section Styles */
+.plant-lover {
+    padding: 60px 0;
+}
+
+.plant-lover .container {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.plant-lover-image {
+    flex: 1;
+    position: relative;
+}
+
+.trusted-badge img {
+    position: absolute;
+    height: 286px;
+    width: 286px;
+    top: -100px;
+    right: -100px;
+}
+
+.plant-lover-content {
+    flex: 1;
+}
+
+.plant-lover-content h2 {
+    color: black;
+    font-size: 50px;
+}
+
+.plant-lover-content ul {
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: 30px;
+}
