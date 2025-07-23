@@ -441,6 +441,7 @@ img {
 @media (max-width: 576px) {
     .plant-cards {
         grid-template-columns: repeat(2, 1fr);
+        gap: 6px;
         align-items: center;
     }
     #always, #fresh{
