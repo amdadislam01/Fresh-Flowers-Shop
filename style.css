@@ -1,0 +1,134 @@
+
+/* font family */
+
+.noto-serif {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+}
+
+/* Some style */
+#always {
+    font-size: 65px;
+    font-weight: 900;
+}
+
+#fresh {
+    font-size: 65px;
+    font-weight: 900;
+    color: #E95A08;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Serif', 'Inter', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #F5F8FF;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #E95A08;
+    color: #fff;
+    font-weight: 800;
+    font-size: 1rem;
+    padding: 10px 20px;
+    width: 100%;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin-bottom: 15px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Navbar Styles */
+.navbar {
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 82px;
+    width: 135px;
+}
+
+.menu {
+    display: flex;
+    gap: 48px;
+}
+
+#home {
+    color: black;
+    font-weight: 900;
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+    transition: color 0.3s;
+}
+
+.mobile-cart {
+    display: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+/* Banner Styles */
+.banner {
+    padding: 162px 0px 120px 0px;
+}
+
+.banner .container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.banner-content {
+    flex: 1;
+}
+
+.banner-image {
+    flex: 1;
+}
+
+.banner h1 {
+    font-size: 2.5rem;
+}
+
+.banner p {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.1rem;
+}
