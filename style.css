@@ -398,3 +398,83 @@ img {
     margin-bottom: 30px;
     transition: color 0.3s;
 }
+
+
+/* Responsive Styles */
+
+/* Destop device */
+@media (max-width: 1000px) {
+    .menu {
+        display: none;
+    }
+
+    .mobile-cart {
+        display: block;
+    }
+
+    .banner .container,
+    .plant-lover .container {
+        flex-direction: column;
+    }
+
+    .banner-image {
+        order: -1;
+        margin-bottom: 30px;
+    }
+
+    .plant-cards {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+
+    .trusted-badge {
+        display: none;
+    }
+
+    .footer .container {
+        flex-direction: column;
+    }
+}
+
+
+/* Mobile device */
+@media (max-width: 576px) {
+    .plant-cards {
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+    #always, #fresh{
+        font-size: 40px;
+    }
+    .right-card{
+        width: 365px;
+        margin: 0 auto;
+        height: 300px;
+    }
+
+    .subscribe {
+        flex-direction: row;
+    }
+
+    .subscribe input {
+        border-radius: 4px;
+        margin-bottom: 10px;
+    }
+
+    .subscribe button {
+        width: 100%;
+        height: 42px;
+    }
+    .btn{
+        width: 100%;
+        text-align: center;
+        color: #fff;
+        font-weight: 700;
+    }
+    .plant-lover-content h2{
+        font-size: 30px;
+    }
+    .footer-links{
+        flex-direction: column;
+    }
+}
