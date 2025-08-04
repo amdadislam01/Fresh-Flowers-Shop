@@ -31,7 +31,7 @@ A visually attractive and fully responsive **flower shop landing page** built us
 > Add your own screenshot below:
 
 <p align="center">
-  <img src="https://i.postimg.cc/FKkQgXhF/fresh-flower-site.png" alt="Fresh Flower Shop Screenshot" width="800"/>
+  <img src="https://ik.imagekit.io/yqnbhdlo4/Img/flowe?updatedAt=1754300560047" alt="Fresh Flower Shop Screenshot" width="1000"/>
 </p>
 
 ---
