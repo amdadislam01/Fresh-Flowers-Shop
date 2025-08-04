@@ -21,7 +21,7 @@ A visually attractive and fully responsive **flower shop landing page** built us
 ## 🛠️ Technologies Used
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,tailwindcss" alt="Tech Stack" width="220"/>
+  <img src="https://skillicons.dev/icons?i=html,css,tailwindcss,github" alt="Tech Stack" width="220"/>
 </p>
 
 ---
